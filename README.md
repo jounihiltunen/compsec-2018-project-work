@@ -41,7 +41,7 @@ External programs | Dynamic | External programs called
 Signing certificate common name | Static | Common name in the certificate used to sign the APK file
 F-PROT unpacker | Static | Additional information provided by F-PROT antivirus (presumably related to file packing)
 
-The script for extracting the features from a VirusTotal scan report is presented in [/src/write_scan_report_to_csv.py]() and sample (anonymized) report in [/src/1172de52be1036c9b51e3f3c38a30a5bd8110bff4e31d1af36f54c822885012b]()
+The script for extracting the features from a VirusTotal scan report is presented in [here](src/write_scan_report_to_csv.py) and sample (anonymized) report in [here](src/1172de52be1036c9b51e3f3c38a30a5bd8110bff4e31d1af36f54c822885012b)
 
 The dataset consist of 8,5k samples and 50k features. Because of the constrains of this project, the number of features had to be reduced to speed up the analysis and model development. The reduction was achieved by removing unique features (i.e. only one sample contained a removed feature), resulting to 13k features.
 
@@ -53,7 +53,7 @@ It seems that the search function that is used to search for samples favours sam
 
 ## Machine learning model
 
-Some machine learning models were experimented such as Support Vector Machines and K Nearest Neighbor classifier. The selected machine learning model is an Extra-tree classifier. The model is driven with default Skikit-learn parameters and the implementation is presented in [/src/extra_tree_classifier_feature_importance.py](). Skikit-learn defines the selected classifier as follows:
+Some machine learning models were experimented such as Support Vector Machines and K Nearest Neighbor classifier. The selected machine learning model is an Extra-tree classifier. The model is driven with default Skikit-learn parameters and the implementation is presented in [here](src/extra_tree_classifier_feature_importance.py). Skikit-learn defines the selected classifier as follows:
 
 "This class implements a meta estimator that fits a number of randomized decision trees (a.k.a. extra-trees) on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting."
 
