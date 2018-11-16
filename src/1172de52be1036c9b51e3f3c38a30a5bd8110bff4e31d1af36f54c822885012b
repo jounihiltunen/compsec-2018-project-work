@@ -1,0 +1,604 @@
+{
+    "vhash": "49e635e311dfac2181e694bf9c79ef70",
+    "submission_names": [
+        "Example_rus[1].apk",
+        "Example.apk",
+        "Example_rus (1).apk",
+        "Example_rus.apk",
+        "Example_rus.apk",
+        "d_rus.apk",
+        "file/output.22.txt",
+        "45769398",
+        "filename",
+        "Z:\\Rar\\013012A.dat"
+    ],
+    "scan_date": "2018-05-08 19:22:40",
+    "first_seen": "2014-10-25 14:44:21",
+    "times_submitted": 23,
+    "additional_info": {
+        "magic": "Zip archive data, at least v1.0 to extract",
+        "exiftool": {
+            "MIMEType": "application/zip",
+            "ZipRequiredVersion": "10",
+            "ZipCRC": "0xdd2258ec",
+            "FileType": "ZIP",
+            "ZipCompression": "None",
+            "ZipUncompressedSize": "54928",
+            "ZipCompressedSize": "54928",
+            "FileTypeExtension": "zip",
+            "ZipFileName": "resources.arsc",
+            "ZipBitFlag": "0x0800",
+            "ZipModifyDate": "2015:04:28 19:01:58"
+        },
+        "trid": "Android Package (80.9%)\nJava Archive (12.6%)\nZIP compressed archive (7.5%)\nPrintFox/Pagefox bitmap (var. P) (2.1%)",
+        "positives_delta": 3,
+        "compressedview": {
+            "tags": [
+                "contains-elf"
+            ],
+            "num_children": 24,
+            "extensions": {
+                "xml": 8,
+                "dex": 1,
+                "MF": 1,
+                "RSA": 1,
+                "SF": 1,
+                "png": 8
+            },
+            "file_types": {
+                "XML": 8,
+                "unknown": 4,
+                "DEX": 1,
+                "ELF": 3,
+                "PNG": 8
+            },
+            "type": "APK",
+            "uncompressed_size": 488166
+        },
+        "contacted_domains": [
+            "google.com"
+        ],
+        "contacted_ips": [
+            "154.39.224.32"
+        ],
+        "androguard": {
+            "VTAndroidInfo": 1.41,
+            "intent-filters": {
+                "Services": {},
+                "Activities": {
+                    "com.example.activities.HijackActivity": {
+                        "action": [
+                            "android.intent.action.VIEW"
+                        ],
+                        "category": [
+                            "android.intent.category.DEFAULT"
+                        ]
+                    },
+                    "com.example.activities.ListenActivity": {
+                        "action": [
+                            "android.intent.action.MAIN"
+                        ],
+                        "category": [
+                            "android.intent.category.LAUNCHER"
+                        ]
+                    },
+                    "com.example.activities.UpdateActivity": {
+                        "action": [
+                            "android.intent.action.VIEW"
+                        ],
+                        "category": [
+                            "android.intent.category.DEFAULT"
+                        ]
+                    },
+                    "com.example.activities.DonateActivity": {
+                        "action": [
+                            "android.intent.action.VIEW"
+                        ],
+                        "category": [
+                            "android.intent.category.DEFAULT"
+                        ]
+                    }
+                },
+                "Receivers": {}
+            },
+            "Libraries": [],
+            "AndroidApplicationError": false,
+            "MinSdkVersion": "7",
+            "AndroguardVersion": "3.0-dev",
+            "Activities": [
+                "com.example.activities.ListenActivity",
+                "com.example.activities.HijackActivity",
+                "com.example.activities.DonateActivity",
+                "com.example.activities.UpdateActivity"
+            ],
+            "certificate": {
+                "Subject": {
+                    "DN": "C:US, CN:Android, L:Mountain View, O:Android, ST:California, OU:Android, email:android@android.com",
+                    "C": "US",
+                    "CN": "Android",
+                    "L": "Mountain View",
+                    "O": "Android",
+                    "ST": "California",
+                    "OU": "Android",
+                    "email": "android@android.com"
+                },
+                "Issuer": {
+                    "DN": "C:US, CN:Android, L:Mountain View, O:Android, ST:California, OU:Android, email:android@android.com",
+                    "C": "US",
+                    "CN": "Android",
+                    "L": "Mountain View",
+                    "O": "Android",
+                    "ST": "California",
+                    "OU": "Android",
+                    "email": "android@android.com"
+                }
+            },
+            "AndroidApplication": 1,
+            "RiskIndicator": {
+                "APK": {
+                    "DEX": 1,
+                    "EXECUTABLE": 3
+                },
+                "PERM": {
+                    "INTERNET": 1,
+                    "NORMAL": 2
+                }
+            },
+            "Services": [
+                "com.example.services.ArpspoofService",
+                "com.example.services.ExampleService"
+            ],
+            "Permissions": {
+                "android.permission.WAKE_LOCK": [
+                    "normal",
+                    "prevent phone from sleeping",
+                    "Allows an application to prevent the phone from going to sleep."
+                ],
+                "com.google.android.gm.permission.WRITE_GMAIL": [
+                    "normal",
+                    "Unknown permission from android reference",
+                    "Unknown permission from android reference"
+                ],
+                "android.permission.ACCESS_WIFI_STATE": [
+                    "normal",
+                    "view Wi-Fi status",
+                    "Allows an application to view the information about the status of Wi-Fi."
+                ],
+                "android.permission.INTERNET": [
+                    "dangerous",
+                    "full Internet access",
+                    "Allows an application to create network sockets."
+                ]
+            },
+            "AndroidVersionCode": "15",
+            "Package": "com.example",
+            "Main Activity": "com.example.activities.ListenActivity",
+            "AndroidVersionName": "15",
+            "TargetSdkVersion": null,
+            "AndroidApplicationInfo": "APK",
+            "Providers": [],
+            "Receivers": [],
+            "StringsInformation": [
+                "http://",
+                "http://example.com/?page_id=121",
+                "http://example.com/changelog.htm",
+                "http://example.com/forum",
+                "http://example.com/version.htm"
+            ]
+        },
+        "contacted_urls": [
+            "http://example.com/version.htm"
+        ],
+        "android-behaviour": {
+            "sandbox-version": 1,
+            "external_programs": [
+                "ls /system/bin",
+                "busybox"
+            ],
+            "started_receivers": [
+                "android.net.wifi.WIFI_STATE_CHANGED"
+            ],
+            "contacted_urls": [
+                {
+                    "url": "http://example.com/version.htm"
+                }
+            ],
+            "accessed_files": [
+                "/data/data/com.example/files",
+                "/data/data/com.example/files/Example",
+                "/data/data/com.example/files/arpspoof",
+                "/data/data/com.example/files/saved"
+            ],
+            "opened_files": [
+                "/data/data/com.example/files/Example",
+                "/data/data/com.example/files/arpspoof",
+                "/data/data/com.example/files"
+            ]
+        }
+    },
+    "size": 308847,
+    "total": 61,
+    "harmless_votes": 1,
+    "verbose_msg": "Scan finished, information embedded",
+    "type": "Android",
+    "scans": {
+        "Bkav": {
+            "detected": false,
+            "version": "1.3.0.9466",
+            "result": null,
+            "update": "20180807"
+        },
+        "MicroWorld-eScan": {
+            "detected": true,
+            "version": "14.0.297.0",
+            "result": "Android.Hacktool.Example.A",
+            "update": "20180808"
+        },
+        "CMC": {
+            "detected": false,
+            "version": "1.1.0.977",
+            "result": null,
+            "update": "20180808"
+        },
+        "CAT-QuickHeal": {
+            "detected": true,
+            "version": "14.00",
+            "result": "Android.Example.A (PUP)",
+            "update": "20180807"
+        },
+        "McAfee": {
+            "detected": true,
+            "version": "6.0.6.653",
+            "result": "Artemis!6F7F474D4B5E",
+            "update": "20180808"
+        },
+        "Malwarebytes": {
+            "detected": false,
+            "version": "2.1.1.1115",
+            "result": null,
+            "update": "20180808"
+        },
+        "Zillya": {
+            "detected": true,
+            "version": "2.0.0.3612",
+            "result": "Tool.Example.Android.19",
+            "update": "20180808"
+        },
+        "Trustlook": {
+            "detected": false,
+            "version": "2",
+            "result": null,
+            "update": "20180808"
+        },
+        "BitDefender": {
+            "detected": true,
+            "version": "7.2",
+            "result": "Android.Hacktool.Example.A",
+            "update": "20180808"
+        },
+        "K7GW": {
+            "detected": true,
+            "version": "10.57.28014",
+            "result": "Hacktool ( 1110049d5e71 )",
+            "update": "20180808"
+        },
+        "K7AntiVirus": {
+            "detected": false,
+            "version": "10.57.28011",
+            "result": null,
+            "update": "20180808"
+        },
+        "Arcabit": {
+            "detected": true,
+            "version": "1.0.0.831",
+            "result": "Android.Hacktool.Example.A",
+            "update": "20180808"
+        },
+        "Baidu": {
+            "detected": false,
+            "version": "1.0.0.2",
+            "result": null,
+            "update": "20180808"
+        },
+        "Babable": {
+            "detected": true,
+            "version": "9107201",
+            "result": "Malware.HighConfidence",
+            "update": "20180725"
+        },
+        "F-Prot": {
+            "detected": true,
+            "version": "4.7.1.166",
+            "result": "AndroidOS/Example.A",
+            "update": "20180808"
+        },
+        "SymantecMobileInsight": {
+            "detected": true,
+            "version": "2.0",
+            "result": "Hacktool:Example",
+            "update": "20180801"
+        },
+        "Symantec": {
+            "detected": true,
+            "version": "1.6.0.0",
+            "result": "Trojan.Gen.NPE",
+            "update": "20180808"
+        },
+        "ESET-NOD32": {
+            "detected": true,
+            "version": "17850",
+            "result": "Android/HackTool.Example.B potentially unsafe",
+            "update": "20180808"
+        },
+        "TrendMicro-HouseCall": {
+            "detected": true,
+            "version": "9.950.0.1006",
+            "result": "AndroidOS_Example.CDE",
+            "update": "20180808"
+        },
+        "Avast": {
+            "detected": true,
+            "version": "18.4.3895.0",
+            "result": "Android:Example-D [PUP]",
+            "update": "20180808"
+        },
+        "ClamAV": {
+            "detected": true,
+            "version": "0.100.1.0",
+            "result": "Andr.Malware.Agent-1659757",
+            "update": "20180808"
+        },
+        "Kaspersky": {
+            "detected": true,
+            "version": "15.0.1.13",
+            "result": "HEUR:HackTool.AndroidOS.Example.a",
+            "update": "20180808"
+        },
+        "Alibaba": {
+            "detected": true,
+            "version": "1.0",
+            "result": "A.H.Rog.APBL.EU",
+            "update": "20180713"
+        },
+        "NANO-Antivirus": {
+            "detected": true,
+            "version": "1.0.116.23366",
+            "result": "Trojan.Android.Example.dgesbb",
+            "update": "20180808"
+        },
+        "ViRobot": {
+            "detected": false,
+            "version": "2014.3.20.0",
+            "result": null,
+            "update": "20180808"
+        },
+        "SUPERAntiSpyware": {
+            "detected": false,
+            "version": "5.6.0.1032",
+            "result": null,
+            "update": "20180808"
+        },
+        "Rising": {
+            "detected": false,
+            "version": "25.0.0.24",
+            "result": null,
+            "update": "20180808"
+        },
+        "Ad-Aware": {
+            "detected": true,
+            "version": "3.0.5.370",
+            "result": "Android.Hacktool.Example.A",
+            "update": "20180808"
+        },
+        "Emsisoft": {
+            "detected": true,
+            "version": "2018.4.0.1029",
+            "result": "Android.Hacktool.Example.A (B)",
+            "update": "20180808"
+        },
+        "Comodo": {
+            "detected": false,
+            "version": null,
+            "result": null,
+            "update": "20180808"
+        },
+        "F-Secure": {
+            "detected": true,
+            "version": "11.0.19100.45",
+            "result": "Hack-Tool:Android/Example.A",
+            "update": "20180808"
+        },
+        "DrWeb": {
+            "detected": true,
+            "version": "7.0.33.6080",
+            "result": "Tool.Example.origin",
+            "update": "20180808"
+        },
+        "VIPRE": {
+            "detected": false,
+            "version": "68690",
+            "result": null,
+            "update": "20180808"
+        },
+        "TrendMicro": {
+            "detected": true,
+            "version": "10.0.0.1040",
+            "result": "AndroidOS_Example.CDE",
+            "update": "20180808"
+        },
+        "McAfee-GW-Edition": {
+            "detected": true,
+            "version": "v2017.3010",
+            "result": "Artemis!PUP",
+            "update": "20180808"
+        },
+        "TheHacker": {
+            "detected": false,
+            "version": "6.8.0.5.3512",
+            "result": null,
+            "update": "20180807"
+        },
+        "Cyren": {
+            "detected": true,
+            "version": "6.0.0.4",
+            "result": "AndroidOS/Example.A",
+            "update": "20180808"
+        },
+        "Jiangmin": {
+            "detected": true,
+            "version": "16.0.100",
+            "result": "HTool.AndroidOS.c",
+            "update": "20180808"
+        },
+        "Avira": {
+            "detected": true,
+            "version": "8.3.3.6",
+            "result": "ANDROID/DrdSh.A.4",
+            "update": "20180808"
+        },
+        "Antiy-AVL": {
+            "detected": true,
+            "version": "3.0.0.1",
+            "result": "HackTool/Android.Example",
+            "update": "20180808"
+        },
+        "Kingsoft": {
+            "detected": true,
+            "version": "2013.8.14.323",
+            "result": "Android.Troj.Undef.a.(kcloud)",
+            "update": "20180808"
+        },
+        "Microsoft": {
+            "detected": false,
+            "version": "1.1.15100.1",
+            "result": null,
+            "update": "20180808"
+        },
+        "AegisLab": {
+            "detected": true,
+            "version": "4.2",
+            "result": "Example_1",
+            "update": "20180808"
+        },
+        "ZoneAlarm": {
+            "detected": true,
+            "version": "1.0",
+            "result": "HEUR:HackTool.AndroidOS.Example.a",
+            "update": "20180808"
+        },
+        "Avast-Mobile": {
+            "detected": true,
+            "version": "180807-16",
+            "result": "Android:Example-O [PUP]",
+            "update": "20180808"
+        },
+        "GData": {
+            "detected": true,
+            "version": "A:25.18041B:25.12918",
+            "result": "Android.Hacktool.Example.A",
+            "update": "20180808"
+        },
+        "TACHYON": {
+            "detected": false,
+            "version": "2018-08-08.03",
+            "result": null,
+            "update": "20180808"
+        },
+        "Sophos": {
+            "detected": true,
+            "version": "4.98.0",
+            "result": "Android Example (PUA)",
+            "update": "20180808"
+        },
+        "AhnLab-V3": {
+            "detected": true,
+            "version": "3.13.1.21616",
+            "result": "Android-AppCare/Example.ddf1",
+            "update": "20180808"
+        },
+        "ALYac": {
+            "detected": false,
+            "version": "1.1.1.5",
+            "result": null,
+            "update": "20180808"
+        },
+        "AVware": {
+            "detected": true,
+            "version": "1.6.0.52",
+            "result": "Trojan.AndroidOS.Example.a",
+            "update": "20180727"
+        },
+        "MAX": {
+            "detected": true,
+            "version": "2017.11.15.1",
+            "result": "malware (ai score=79)",
+            "update": "20180808"
+        },
+        "VBA32": {
+            "detected": true,
+            "version": "3.12.32.0",
+            "result": "HackTool.AndroidOS.Example.a",
+            "update": "20180808"
+        },
+        "Zoner": {
+            "detected": true,
+            "version": "1.0",
+            "result": "HackTool.AndroidOS.Example.A",
+            "update": "20180808"
+        },
+        "Tencent": {
+            "detected": true,
+            "version": "1.0.0.1",
+            "result": "HackTool.Android.Example.a",
+            "update": "20180808"
+        },
+        "Yandex": {
+            "detected": false,
+            "version": "5.5.1.3",
+            "result": null,
+            "update": "20180808"
+        },
+        "Ikarus": {
+            "detected": true,
+            "version": "0.1.5.2",
+            "result": "HackTool.AndroidOS.Example",
+            "update": "20180808"
+        },
+        "Fortinet": {
+            "detected": true,
+            "version": "5.4.247.0",
+            "result": "Android/Generic.S.5664!tr",
+            "update": "20180808"
+        },
+        "AVG": {
+            "detected": true,
+            "version": "18.4.3895.0",
+            "result": "Android:Example-D [PUP]",
+            "update": "20180808"
+        },
+        "Panda": {
+            "detected": false,
+            "version": "4.6.4.2",
+            "result": null,
+            "update": "20180808"
+        },
+        "Qihoo-360": {
+            "detected": true,
+            "version": "1.0.0.1120",
+            "result": "Trojan.Android.Gen",
+            "update": "20180808"
+        }
+    },
+    "tags": [
+        "apk",
+        "android",
+        "ext-prg",
+        "contains-elf"
+    ],
+    "authentihash": null,
+    "unique_sources": 24,
+    "positives": 44,
+    "response_code": 1,
+    "community_reputation": 1,
+    "malicious_votes": 0
+}
